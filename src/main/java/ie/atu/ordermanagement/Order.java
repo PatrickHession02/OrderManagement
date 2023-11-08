@@ -10,4 +10,7 @@ import lombok.NoArgsConstructor;
 
 public class Order {
     private int OrderID;
+    private int productID;
+    private int quantity;
+    private int customerID;
 }
