@@ -30,6 +30,8 @@ public class OrderController {
 
     public Order orderBody(@RequestBody Order order){
 
+        System.out.println("orderID:" + order.getID());
+
 
     }
 
