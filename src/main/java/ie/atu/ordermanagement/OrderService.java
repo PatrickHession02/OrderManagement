@@ -8,13 +8,13 @@ import org.springframework.stereotype.Service;
 
 
 public class OrderService {
-private  OrderService orderService;
+private  CustomerService customerService;
 
 @Autowired
 
-   public OrderService (OrderService orderService)
+   public OrderService (CustomerService customerService)
 {
-   this.orderService = orderService;
+   this.customerService = customerService;
 }
 
 public void createOrder{
