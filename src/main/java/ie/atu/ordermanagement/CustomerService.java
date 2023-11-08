@@ -8,18 +8,8 @@ import org.springframework.stereotype.Service;
 
 
 public class CustomerService {
-    private  CustomerService customerService;
-
-    @Autowired
-
-    public CustomerService (CustomerService customerService)
-    {
-        this.customerService = customerService;
+   public void getUserById Customer customer{
+       System.out.println(customerid)
+       customer.add (customerid);
     }
-
-
-    public void getCustomerById( int orderID){
-
-    }
-
 }
