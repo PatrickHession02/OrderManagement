@@ -1,6 +1,7 @@
 package ie.atu.ordermanagement;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -17,8 +18,9 @@ private  CustomerService customerService;
    this.customerService = customerService;
 }
 
-public void createOrder{
-
+public void createOrder (Order order){
+   System.out.println(order);
+   Order.add(order);
    }
 
    public void getOrderById( int orderID){
